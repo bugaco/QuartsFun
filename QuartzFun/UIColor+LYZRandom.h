@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+LYZRandom.h
 //  QuartzFun
 //
 //  Created by 李懿哲 on 5/29/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UISegmentedControl *colorControl;
-
-
+@interface UIColor (LYZRandom)
++ (UIColor *)randomColor;
 @end
-

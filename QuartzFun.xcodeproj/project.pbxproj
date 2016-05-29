@@ -13,6 +13,8 @@
 		6CD12E6E1CFB004D009B534D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD12E6C1CFB004D009B534D /* Main.storyboard */; };
 		6CD12E701CFB004D009B534D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD12E6F1CFB004D009B534D /* Assets.xcassets */; };
 		6CD12E731CFB004D009B534D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD12E711CFB004D009B534D /* LaunchScreen.storyboard */; };
+		6CD12E7C1CFB009C009B534D /* LYZQuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD12E7B1CFB009C009B534D /* LYZQuartzFunView.m */; };
+		6CD12E801CFB014B009B534D /* UIColor+LYZRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD12E7F1CFB014B009B534D /* UIColor+LYZRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		6CD12E6F1CFB004D009B534D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD12E721CFB004D009B534D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD12E741CFB004D009B534D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD12E7A1CFB009C009B534D /* LYZQuartzFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZQuartzFunView.h; sourceTree = "<group>"; };
+		6CD12E7B1CFB009C009B534D /* LYZQuartzFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZQuartzFunView.m; sourceTree = "<group>"; };
+		6CD12E7D1CFB00E5009B534D /* LYZConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYZConstants.h; sourceTree = "<group>"; };
+		6CD12E7E1CFB014B009B534D /* UIColor+LYZRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYZRandom.h"; sourceTree = "<group>"; };
+		6CD12E7F1CFB014B009B534D /* UIColor+LYZRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYZRandom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,11 @@
 				6CD12E711CFB004D009B534D /* LaunchScreen.storyboard */,
 				6CD12E741CFB004D009B534D /* Info.plist */,
 				6CD12E631CFB004D009B534D /* Supporting Files */,
+				6CD12E7A1CFB009C009B534D /* LYZQuartzFunView.h */,
+				6CD12E7B1CFB009C009B534D /* LYZQuartzFunView.m */,
+				6CD12E7D1CFB00E5009B534D /* LYZConstants.h */,
+				6CD12E7E1CFB014B009B534D /* UIColor+LYZRandom.h */,
+				6CD12E7F1CFB014B009B534D /* UIColor+LYZRandom.m */,
 			);
 			path = QuartzFun;
 			sourceTree = "<group>";
@@ -151,7 +163,9 @@
 			files = (
 				6CD12E6B1CFB004D009B534D /* ViewController.m in Sources */,
 				6CD12E681CFB004D009B534D /* AppDelegate.m in Sources */,
+				6CD12E801CFB014B009B534D /* UIColor+LYZRandom.m in Sources */,
 				6CD12E651CFB004D009B534D /* main.m in Sources */,
+				6CD12E7C1CFB009C009B534D /* LYZQuartzFunView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
